@@ -198,7 +198,7 @@ html,body{height:100%;background:var(--ink);color:var(--cream);font-family:'DM M
       <label class="modal-label" for="input-pattern">Image URL Pattern</label>
       <!-- <input class="modal-input" id="input-pattern" type="text" value="https://magazine.cioreview.com/magazines/February2026/Edge_AI_Development/docs/Edge_AI_Development.pdf_{n}.jpg"> -->
       <!-- <input class="modal-input" id="input-pattern" type="text" value="https://www.mediainfotainment.com/digital-magazine/market-research-companies-june-2024/docs/market-research-companies-june-2024.pdf_{n}.jpg"> -->
-      <input class="modal-input" id="input-pattern" type="text" value="https://ankur0208.github.io/home-collection/img{n}.jpg">
+      <input class="modal-input" id="input-pattern" type="text" value="img{n}.jpg">
       <div class="modal-hint">Use {n}, {nn}, or {nnn} for page numbers.<br>Or paste a JSON array: ["url1","url2",...]</div>
     </div>
     <div class="modal-field">
@@ -724,7 +724,7 @@ function init() {
   document.getElementById('input-title').value  ='Sample Flipbook';
   // document.getElementById('input-pattern').value='https://magazine.cioreview.com/magazines/February2026/Edge_AI_Development/docs/Edge_AI_Development.pdf_{n}.jpg';
   // document.getElementById('input-pattern').value='https://www.mediainfotainment.com/digital-magazine/market-research-companies-june-2024/docs/market-research-companies-june-2024.pdf_{n}.jpg';
-  document.getElementById('input-pattern').value='https://ankur0208.github.io/home-collection/img{n}.jpg';
+  document.getElementById('input-pattern').value='img{n}.jpg';
   document.getElementById('input-count').value  ='40';
   document.getElementById('input-aspect').value ='12:15';
   applyConfig();
